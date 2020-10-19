@@ -51,7 +51,7 @@ Variables
   --radius: 0.5rem;
   --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   --txt-dark-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
-  --txt-light-shadow: 1px 3px 10px rgba(0, 0, 0, 0.3);
+  --txt-light-shadow: 0px 0px 4px rgba(146, 145, 145, 0.746);
   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   --max-width: 1170px;
   --fixed-width: 620px;
@@ -70,7 +70,6 @@ html {
 }
 body {
   font-family: var(--ff-secondary);
-  background: var(--clr-grey-10);
   color: var(--clr-grey-1);
   line-height: 1.5;
   font-size: 0.875rem;
@@ -144,7 +143,7 @@ p {
   text-shadow: var(--txt-dark-shadow);
 }
 .mk-logo {
-  text-shadow: var(--txt-light-shadow);
+  text-shadow: var(--light-shadow);
 }
 .mk-logo span {
   color: #ffd500;
@@ -491,10 +490,15 @@ p {
 }
 .mk-contact-form {
   width: 100%;
-  background-color: #e0e0e0 !important;
+  background-color: #e6e5e5 !important;
+  border-radius: .3rem;
 }
 .mk-contact-info .mk-bg-light {
-  background-color: #e0e0e0 !important;
+  background-color: #e6e5e5 !important;
+  border-radius: .2rem;
+}
+.mk-contact-info div{
+  padding-top: 1rem;
 }
 .mk-contact-info .mk-icon .fas {
   color: #ffa723;
@@ -534,9 +538,6 @@ p {
   color: #fcd615;
 }
 
-/* .mk-animate {
-  opacity: 0;
-  visibility: hidden; } */
 
 /* fixed nav */
 .fixed-nav {
