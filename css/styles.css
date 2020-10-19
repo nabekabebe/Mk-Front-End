@@ -1,0 +1,78 @@
+.header {
+    height: auto;
+}
+.mk-navbar{
+    background: rgba(0, 0, 0, 0.856) !important;
+}
+.page-banner{
+    min-height: 25vh;
+    color: white !important;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+}
+.page-banner h3 span{
+    color: #ffd500;
+}
+
+/* mk events section */
+
+.mk-side-news{
+    padding: 1rem;
+}
+.mk-side-news .mk-events, .mk-ads, .mk-schedules{
+    background-color: #e0e0e0;
+    border-radius: .2rem;
+    padding: 2rem;
+}
+.mk-side-news .mk-events ul, .mk-ads p{
+    padding-left: 2rem;
+}
+#mk-events-page .event-content{
+    padding-right: 2rem;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+}
+#mk-events-page .event-content p{
+    margin-top: 2rem;
+}
+#mk-events-page .event-content .mk-img-show{
+    max-width: 60%;
+    max-height: 60%;
+    align-self: center;
+}
+.event-content form{
+    max-width: 500px;
+    align-self: center;
+}
+
+/* mk service section */
+.mk-service-banner{
+    min-height: 35vh;
+    color: white !important;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+}
+.mk-schedules span{
+    color: black;
+    background-color: #ffd500;
+    display: block;
+    margin-bottom: .3rem;
+    padding: .4rem;
+    border-radius: .3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: var(--light-shadow);
+    cursor: pointer;
+}
+
+.mk-service-section .page-banner{
+    min-height: 45vh;
+}
